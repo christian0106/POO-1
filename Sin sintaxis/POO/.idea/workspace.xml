@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c54e8bbb-145d-483b-b753-451317284d48" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../con Sintaxis/Restaurante/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../con Sintaxis/Restaurante/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../con Sintaxis/Restaurante/out/production/Restaurante/Clases/Mesa.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../con Sintaxis/Restaurante/out/production/Restaurante/Clases/Mesa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../con Sintaxis/Restaurante/out/production/Restaurante/Restaurante/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../con Sintaxis/Restaurante/out/production/Restaurante/Restaurante/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../con Sintaxis/Restaurante/src/Clases/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../con Sintaxis/Restaurante/src/Clases/Cliente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../con Sintaxis/Restaurante/src/Clases/Mesa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../con Sintaxis/Restaurante/src/Clases/Mesa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../con Sintaxis/Restaurante/src/Restaurante/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../con Sintaxis/Restaurante/src/Restaurante/Main.java" afterDir="false" />
     </list>
@@ -140,7 +142,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="-3" width="1926" height="1087" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25452608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

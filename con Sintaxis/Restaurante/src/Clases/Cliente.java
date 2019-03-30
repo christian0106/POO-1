@@ -42,4 +42,6 @@ public class Cliente {
     public void setMetodo_pago(int metodo_pago) {
         this.metodo_pago = metodo_pago;
     }
+
+
 }

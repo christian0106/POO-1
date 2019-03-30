@@ -28,10 +28,10 @@ public class Main {
                     unamesa.setNombre_mesa(nombre);
                     unamesa.crear_cliente();
                     mesas.add(unamesa);
-
-
+                    unamesa.imp_mesa();
                     break;
-                case 2:
+
+                    case 2:
                     break;
 
 

@@ -50,15 +50,37 @@ public class Mesa {
         for(int i=0; i<this.cantidad; i++){
             Scanner dato = new Scanner(System.in);
             String name=null;
-            int edad=0;
+            int num=0;
+
             Cliente uncliente = new Cliente();
+
             System.out.println("Nombre: ");
             name=dato.nextLine();
             System.out.println("Edad: ");
-            edad=dato.nextInt();dato.nextLine();
-            uncliente.setEdad(edad);
+            num=dato.nextInt();dato.nextLine();
+            uncliente.setEdad(num);
             uncliente.setNombre(name);
+            num=0;
+            System.out.println("Metodo de pago: (1. para Tarjeta 2. para Efectivo)");
+            num=dato.nextInt();dato.nextLine();
+            uncliente.setMetodo_pago(num);
             clientes.add(uncliente);
         }
+    }
+
+    public void imp_mesa(){
+        System.out.println("\nMesa ingresada!\n nombre del anfitrion: "+this.nombre_mesa+"\nCantidad de clientes: "+this.cantidad+"\nClientes: \n");
+        int num=1;
+        for (Cliente s:clientes) {
+            System.out.println("Cliente#"+num+" : "+s.getNombre()+"\n Edad: "+s.getEdad());
+            if(s.getMetodo_pago()==1){
+                System.out.println("Tarjeta\n\n");
+            }
+            else{
+                System.out.println("Efectivo\n\n");
+            }
+
+        }
+
     }
 }
