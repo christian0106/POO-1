@@ -32,8 +32,19 @@ public class Plato {
         return tipo_plato;
     }
 
-    public void setTipo_plato(String tipo_plato) {
-        this.tipo_plato = tipo_plato;
+    public void setTipo_plato(int tipo_plato) {
+        String dato=null;
+        switch (tipo_plato){
+            case 1:
+                dato="Aperitivo";
+                break;
+            case 2:
+                dato="Plato Fuerte";
+                break;
+            case 3:
+                dato="Postre";
+        }
+        this.tipo_plato = dato;
     }
 
     public Double getPrecio() {

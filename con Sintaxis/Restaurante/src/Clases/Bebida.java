@@ -37,7 +37,7 @@ public class Bebida {
         return tipo_bebida;
     }
 
-    public void setTipo_bebida(String tipo_bebida) {
-        this.tipo_bebida = tipo_bebida;
+    public void setTipo_bebida(int tipo_bebida) {
+        this.tipo_bebida = (tipo_bebida==1)?"Alcohólica":"No Alcohólica ";
     }
 }

@@ -64,7 +64,9 @@ public class Mesa {
             System.out.println("Metodo de pago: (1. para Tarjeta 2. para Efectivo)");
             num=dato.nextInt();dato.nextLine();
             uncliente.setMetodo_pago(num);
+            uncliente.pedir_orden();
             clientes.add(uncliente);
+
         }
     }
 
