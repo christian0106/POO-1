@@ -79,12 +79,13 @@ public class Cliente {
         System.out.println("Nombre del plato: ");
         nombre=dato.nextLine();
         precio=(20+(25-15))*seed.nextDouble();
-        System.out.println("Precio: "+precio+"\n");
+        comida.setCalorias(seed.nextInt(1500));
+        System.out.println("Precio: "+precio+"\nCalorías: "+comida.getCalorias()+"\n");
 
         comida.setTipo_plato(op);
         comida.setNombre(nombre);
         comida.setPrecio(precio);
-        comida.setCalorias(seed.nextInt(1500));
+
         platos.add(comida);
 
     }
@@ -112,6 +113,28 @@ public class Cliente {
         bebida.setPrecio(precio);
         bebida.setTipo_bebida(op);
         bebidas.add(bebida);
+    }
+
+    public Double total_personal(){
+        Double suma=0.0;
+        for (Bebida s:bebidas
+             ) {
+            suma+=s.getPrecio();
+        }
+        for (Plato s:platos
+             ) {
+            suma+=s.getPrecio();
+        }
+        return suma;
+    }
+
+    public int total_calorias(){
+        int calorias=0;
+        for (Plato p:platos
+             ) {
+            calorias+=p.getCalorias();
+        }
+        return calorias;
     }
 
 }

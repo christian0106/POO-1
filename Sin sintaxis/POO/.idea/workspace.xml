@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c54e8bbb-145d-483b-b753-451317284d48" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../con Sintaxis/Restaurante/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../con Sintaxis/Restaurante/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../con Sintaxis/Restaurante/out/production/Restaurante/Clases/Mesa.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../con Sintaxis/Restaurante/out/production/Restaurante/Clases/Mesa.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../con Sintaxis/Restaurante/out/production/Restaurante/Restaurante/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../con Sintaxis/Restaurante/out/production/Restaurante/Restaurante/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../con Sintaxis/Restaurante/src/Clases/Mesa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../con Sintaxis/Restaurante/src/Clases/Mesa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../con Sintaxis/Restaurante/src/Restaurante/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../con Sintaxis/Restaurante/src/Restaurante/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,7 +17,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/EjercicioClase/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
@@ -27,7 +29,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/EjercicioClase/Orden.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
@@ -150,6 +152,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="-3" width="1926" height="1087" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25452608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -202,20 +205,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EjercicioClase/Orden.java">
+    <entry file="file://$PROJECT_DIR$/src/EjercicioClase/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="270">
+          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EjercicioClase/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/EjercicioClase/Orden.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

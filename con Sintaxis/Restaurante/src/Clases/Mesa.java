@@ -22,6 +22,8 @@ public class Mesa {
         //Total_mesa = total_mesa;
     }
 
+
+
     public int getCantidad() {
         return cantidad;
     }
@@ -54,8 +56,8 @@ public class Mesa {
 
             Cliente uncliente = new Cliente();
 
-            System.out.println("Nombre: ");
-            name=dato.nextLine();
+            System.out.println("Nombre del cliente: ");
+            name=dato.nextLine().toUpperCase();
             System.out.println("Edad: ");
             num=dato.nextInt();dato.nextLine();
             uncliente.setEdad(num);
@@ -71,7 +73,7 @@ public class Mesa {
     }
 
     public void imp_mesa(){
-        System.out.println("\nMesa ingresada!\n nombre del anfitrion: "+this.nombre_mesa+"\nCantidad de clientes: "+this.cantidad+"\nClientes: \n");
+        System.out.println("\n nombre del anfitrion: "+this.nombre_mesa+"\nCantidad de clientes: "+this.cantidad+"\nClientes: \n");
         int num=1;
         for (Cliente s:clientes) {
             System.out.println("Cliente#"+num+" : "+s.getNombre()+"\n Edad: "+s.getEdad());
@@ -85,4 +87,59 @@ public class Mesa {
         }
 
     }
+
+    public void Buscar_cliente(String name){
+        Cliente puntero=null;
+        for (Cliente s : clientes) {
+            if( s.getNombre().equals(name)) {
+                puntero = s;
+                break;
+            }
+        }
+        //puntero.imp_mesa();
+        //return puntero;
+        puntero.pedir_orden();
+    }
+
+    public Double total_mesa(){
+        Double subtotal=0.0;
+        for (Cliente s:clientes
+             ) {
+            for (Plato p:s.platos
+                 ) {
+                subtotal+=p.getPrecio();
+            }
+            for (Bebida q:s.bebidas
+                 ) {
+                subtotal+=q.getPrecio();
+            }
+        }
+        return subtotal;
+    }
+
+    public int buscar_cal(String dato){
+        int totalcal=0;
+        for (Cliente p:clientes
+             ) {
+            if(p.getNombre().equals(dato)){
+              totalcal=p.total_calorias();
+            }
+        }
+        return totalcal;
+    }
+
+    public Double cuenta_personal(String dta){
+        Double total=0.0;
+        for (Cliente g:clientes
+             ) {
+            if(g.getNombre().equals(dta)){
+                for (Plato t:g.platos
+                     ) {
+                    total+=t.getPrecio();
+                }
+            }
+        }
+        return total;
+    }
 }
+
