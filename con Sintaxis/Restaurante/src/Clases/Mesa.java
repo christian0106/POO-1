@@ -48,8 +48,8 @@ public class Mesa {
         Total_mesa = total_mesa;
     }
 
-    public void crear_cliente(){
-        for(int i=0; i<this.cantidad; i++){
+    public void crear_cliente(int apoyo){
+        for(int i=0; i<apoyo; i++){
             Scanner dato = new Scanner(System.in);
             String name=null;
             int num=0;

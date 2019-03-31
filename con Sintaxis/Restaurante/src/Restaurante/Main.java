@@ -29,7 +29,7 @@ public class Main {
                     nombre=dato.nextLine().toUpperCase();
                     unamesa.setCantidad(cantidad);
                     unamesa.setNombre_mesa(nombre);
-                    unamesa.crear_cliente();
+                    unamesa.crear_cliente(cantidad);
                     mesas.add(unamesa);
                     System.out.println("Mesa Ingresada!");
                     unamesa.imp_mesa();
@@ -38,7 +38,15 @@ public class Main {
 
 
                 case 2:
+                    String nombreMe;
+                    int cantidad2;
                     System.out.println("¿A que mesa desea agregar el clientes?");
+                    nombreMe=dato.nextLine().toUpperCase();
+                    unamesa=buscar(nombreMe,mesas);
+                    System.out.println("Mesa encontrada!");
+                    System.out.println("¿Cuantos clientes desea agregar a la mesa?");
+                    cantidad2=dato.nextInt();dato.nextLine();
+                    unamesa.crear_cliente(cantidad2);
 
 
                     break;
