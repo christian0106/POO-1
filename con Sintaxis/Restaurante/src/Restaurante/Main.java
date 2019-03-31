@@ -16,7 +16,7 @@ public class Main {
         ArrayList<Mesa> mesas = new ArrayList<>();
 
         while(continuar) {
-            System.out.println("Bienvenidos al Restaurate\n¿Qué desea hacer?\n\r\t1.Crear nueva mesa\n\r\t2.Agregar un nuevo cliente a una mesa existente\n\r\t3.Ordenar\n\r\t4.Pedir cuenta de una mesa\n\r\t5.Salir");
+            System.out.println("Bienvenidos al Restaurate\n¿Qué desea hacer?\n\r\t1.Crear nueva mesa\n\r\t2.Agregar un nuevo cliente a una mesa existente\n\r\t3.Agregar Orden\n\r\t4.Pedir cuenta de una mesa\n\r\t5.Salir");
             op=dato.nextInt();dato.nextLine();
             switch (op){
                 case 1:
@@ -24,7 +24,7 @@ public class Main {
                     System.out.println("Cantidad de personas: ");
                     cantidad= dato.nextInt();dato.nextLine();
                     System.out.println("Nombre de la mesa: ");
-                    nombre=dato.nextLine();
+                    nombre=dato.nextLine().toUpperCase();dato.nextLine();
                     unamesa.setCantidad(cantidad);
                     unamesa.setNombre_mesa(nombre);
                     unamesa.crear_cliente();
@@ -41,6 +41,11 @@ public class Main {
                     break;
 
                 case 3:
+                    String mesa;
+                    System.out.println("¿A nombre de quién esta la mesa?");
+                    mesa=dato.nextLine().toUpperCase();
+                    buscar(mesa,mesas);
+
                     break;
 
                 case 4:
@@ -49,11 +54,24 @@ public class Main {
                 case 5: continuar = false;
                     break;
 
-
-
             }
+
         }
 
 
+
     }
+     public static Mesa buscar(String dta, ArrayList<Mesa> mesas){
+        Mesa puntero=null;
+         for (Mesa s : mesas) {
+             if( s.getNombre_mesa().equals(dta)) {
+                 puntero = s;
+                 break;
+             }
+         }
+         puntero.imp_mesa();
+        return puntero;
+    }
+
 }
+

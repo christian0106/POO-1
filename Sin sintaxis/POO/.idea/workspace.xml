@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c54e8bbb-145d-483b-b753-451317284d48" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../con Sintaxis/Restaurante/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../con Sintaxis/Restaurante/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../con Sintaxis/Restaurante/out/production/Restaurante/Clases/Bebida.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../con Sintaxis/Restaurante/out/production/Restaurante/Clases/Bebida.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../con Sintaxis/Restaurante/out/production/Restaurante/Clases/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../con Sintaxis/Restaurante/out/production/Restaurante/Clases/Cliente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../con Sintaxis/Restaurante/out/production/Restaurante/Clases/Mesa.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../con Sintaxis/Restaurante/out/production/Restaurante/Clases/Mesa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../con Sintaxis/Restaurante/out/production/Restaurante/Clases/Orden.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../con Sintaxis/Restaurante/out/production/Restaurante/Clases/Plato.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../con Sintaxis/Restaurante/out/production/Restaurante/Clases/Plato.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../con Sintaxis/Restaurante/src/Clases/Bebida.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../con Sintaxis/Restaurante/src/Clases/Bebida.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../con Sintaxis/Restaurante/src/Clases/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../con Sintaxis/Restaurante/src/Clases/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../con Sintaxis/Restaurante/src/Clases/Mesa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../con Sintaxis/Restaurante/src/Clases/Mesa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../con Sintaxis/Restaurante/src/Clases/Orden.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../con Sintaxis/Restaurante/src/Clases/Plato.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../con Sintaxis/Restaurante/src/Clases/Plato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../con Sintaxis/Restaurante/out/production/Restaurante/Restaurante/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../con Sintaxis/Restaurante/out/production/Restaurante/Restaurante/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../con Sintaxis/Restaurante/src/Restaurante/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../con Sintaxis/Restaurante/src/Restaurante/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
