@@ -11,11 +11,12 @@ public class Main {
         int cantidad,op;
         boolean continuar=true;
         String nombre;
+        String nombreM;
         Scanner dato = new Scanner(System.in);
         ArrayList<Mesa> mesas = new ArrayList<>();
 
         while(continuar) {
-            System.out.println("Bienvenidos al Restaurate\n¿Qué desea hacer?\n\r\t 1.Crear nueva mesa\n\r\t2. Agregar un nuevo cliente a una mesa existente\n\r\t3.Pedir cuenta de una mesa");
+            System.out.println("Bienvenidos al Restaurate\n¿Qué desea hacer?\n\r\t1.Crear nueva mesa\n\r\t2.Agregar un nuevo cliente a una mesa existente\n\r\t3.Ordenar\n\r\t4.Pedir cuenta de una mesa\n\r\t5.Salir");
             op=dato.nextInt();dato.nextLine();
             switch (op){
                 case 1:
@@ -31,9 +32,22 @@ public class Main {
                     unamesa.imp_mesa();
                     break;
 
-                    case 2:
+
+
+                case 2:
+                    System.out.println("¿A que mesa desea agregar el clientes?");
+
+
                     break;
 
+                case 3:
+                    break;
+
+                case 4:
+                    break;
+
+                case 5: continuar = false;
+                    break;
 
 
 
